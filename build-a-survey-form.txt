@@ -1,0 +1,134 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honeymoon Sweet Spots</title>
+  </head>
+  <body>
+    <h1 id="title"><u>Honeymoon Sweet Spots Registration</u></h1>
+    <p id="description">Are you looking for a location to let loose with your beloved?, or rekindle what you have lost?, or get to know eachother more? You my friend,have come to the right place! Tell us about yourselves so we may give the suggestions you both <b>Need and Deserve!</b></p>
+    <form id="survey-form">
+      <fieldset class="personal">
+        <legend id="title"><b>Let's get to know you</b></legend>
+        <label for="number"> Before we do anything else, what's your age? <input id="number" required type="number" min="18" max="100" placeholder="18+"/></label>
+        <label for="name">Now, what's your Name? <input type="text" placeholder="Brian Wright..." required id="name"></label>
+        <label for="email">Now, for informing purposes, your email please <input type="email" id="email" placeholder="name@gmail.com" required /></label>
+      </fieldset>
+      <br>
+      <fieldset class="relationship">
+        <legend id="title"><b>Tell us more about your relationship</b></legend>
+        <label for="dropdown" class="dropdowm"> What is the status of your relationship? 
+          <select id="dropdown">
+            <option>SELECT ONE</option>
+            <option>Crush</option>
+            <option>Dating</option>
+            <option>Living Together</option>
+            <option>Long Distance</optiom>
+          </select>
+        </label>
+        <label for="Married" class="status"><input name="relationship-status" id="Married" type="checkbox" value="Married"/>Married</label>
+        <label for="Not-Married" class="status"><input name="relationship-status" type="checkbox" value="Not married" id="Not-Married"/>Not Married</label>
+        <label for="With-Kids" class="status"><input type="checkbox" id="With-Kids" name="relationship-status" value="With-Kids"/>With Kids</label>
+        <label for="Without-Kids" class="status"><input type="checkbox" name="relationship-status" id="Without-Kids" value="Without-Kids"/>Without Kids</label>
+        <br>
+        <label><input checked id="rare" name="couple-type" class="" type="radio" value="rare"/> It's Rain in Hell </label>
+        <br>
+        <label><input id="passionate" class="" name="couple-type" type="radio" value="passionate"/> It's a Hungry Furnace </label>
+         <br>
+         <label><input class="option" id="bland" name="couple-type" type="radio" value="bland"/> It's Lukewarm </label>
+         <br>
+         <label><input class="" id="terrible" name="couple-type" type="radio" value="terrible"/> It's In the ICU </label>
+      </fieldset>
+      <br>
+      <fieldset class="lover">
+        <legend id="title"><b>Finally, on to your Lover</b></legend>
+        <label id="number-label">Before anything else, how old is your Lover? <input id="number-label" type="number" placeholder="18+" min="18" max="100" required/>
+        <label id="name-label">What's his/her name? <input id="name-label" type="text" required placeholder="Zoe Rose..."/></label>
+        <label id="email-label">For us to communicate with your lover about your place of choice, we need their email? <input id="email-label" type="email" required placeholder="name@gmail.com"/></label>
+        <label id="letter">Let's finalize this by writing down a letter for your lover that shall be sent to their email address: <textarea rows="7" cols="7" placeholder="Remember when i brought up the idea of a date?.."></textarea></label>
+      </fieldset>
+      <br>
+      <footer>
+        <label for="submit"><p class="ending">With everything settled, let's move on to the sweet spot choices suited for you two based on your submission</p><button id="submit" type="submit">Let's Begin</button></label>
+    </footer>
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{font-family: sans-serif;
+color: rgb(130,0,0);
+font-size: 22px;
+margin: 1px;
+text-align: center;
+background: linear-gradient(180deg, rgb(255,255,255)1%,rgb(255,170,170)60%,rgb(255,255,255));}
+#title{font-family: cursive, serif;
+color: rgb(200,0,0);
+text-align: center;}
+b{color: rgb(200,0,0)}
+input[type="text"]:focus, textarea:focus, input[type="number"]:focus, input[type="email"]:focus, select:focus, button:focus{outline: dotted;}
+p{text-align: center;}
+.dropdown{display: block;}
+#dropdown{display: block;
+border: dotted;
+text-align: center;
+border-radius: 10px;
+color: rgb(190,0,0);
+background-color: rgb(255,230,230);
+width: 200px;
+font-size: 15px;
+padding: 3px;
+margin: auto;
+margin-top: 3px;
+margin-bottom: 10px;}
+fieldset{border: none;
+border-top: solid;
+border-bottom: solid;
+border-width: 1px;}
+input[type="text"], input[type="number"], input[type="email"]{display: block;
+padding: 5px;
+text-align: center;
+font-size: 16px;
+color: rgb(190,0,0);
+border: dotted;
+border-radius: 50px;
+background-color: rgb(255,230,230);
+margin: auto;
+min-width: 435px;}
+legend{border-radius: 5px;
+background-color: rgba(255,255,255,0.5);
+border: 1px solid rgb(100,0,0);}
+button{border: dotted;
+font-family: cursive;
+border-radius: 50px;
+width: 200px;
+color: rgb(190,0,0);
+background-color:rgb(255,230,230);
+font-size: 25px;
+padding: 10px;
+margin-top: -20px;
+margin-bottom: 20px;}
+.ending{margin-top: -3px;}
+textarea{display: block;
+padding: 13px;
+font-size: 15px;
+border-radius: 25px;
+border: dotted;
+color: rgb(190,0,0);
+background-color: rgb(255,230,230);
+margin: auto;
+margin-top: 10px;
+width: 470px;}
+#name-label, #email-label, #number-label{margin-bottom: 12px;}
+::placeholder{color: rgb(255,0,0);
+opacity: 0.5;}
+
+** end of undefined **
+
